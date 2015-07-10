@@ -1,0 +1,84 @@
+#twrap h2 {
+	color: white;
+}
+
+#twrap h3 {
+	color: white;
+}
+
+#twrap h4 {
+	color: white;
+}
+
+#headerwrap strong {
+	color: red;
+	font-weight: bold;
+	font-size: 150%;
+}
+#headerwrap .img-responsive {
+	width: 100%;
+}
+.carousel-control.right, .carousel-control.left {
+	background: none;
+	width: 10%;
+}
+.carousel {
+	box-shadow: 0 60px 0 25px rgba(0,0,0,0.05);
+}
+.owl-carousel .owl-item {
+	height: 300px;
+}
+.owl-carousel .owl-item .btn-wrapper {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#headerwrap {
+	overflow: hidden;
+}
+#twrap:after {
+	content: "";
+	background: rgba(0, 179, 254, 0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+#twrap {
+	position: relative;
+	z-index: 0;
+}
+#contactwrap {
+	background-position: 10%;
+}
+
+#events {
+	padding-top: 3cm;
+}
+
+ul {
+	margin-left: 25px;
+}
+hr {
+	border: none;
+	width: 70%;
+	margin: auto;
+	border-bottom: 3px solid #eee !important;
+}
+#forums {
+	margin-top: 50px;
+}
+
+#loading {
+		display: none;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	
+#calendar {
+	max-width: 900px;
+	margin: 0 auto;
+}
